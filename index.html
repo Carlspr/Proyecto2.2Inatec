@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Registro en una tienda</h1>
+
+      <form action="">
+        <label for="NombreUsuario">Nombre de usario:</label>
+        <input type="text" id="NombreUsuario" placeholder="Ej: Luis" />
+
+        <label for="EmailUsuario">Email:</label>
+        <input
+          type="email"
+          id="EmailUsuario"
+          placeholder="Ej: Luis@gmail.com "
+        />
+
+        <label for="EdadUsuario">Edad:</label>
+        <input type="number" id="EdadUsuario" placeholder="Ej: 21 " />
+
+        <label for="FechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="FechaNacimiento" />
+
+        <div>
+          <label for="genero" id="GId">Géneros:</label>
+          <label for="masculino">Masculino</label>
+          <input
+            type="checkbox"
+            id="masculino"
+            name="genero"
+            value="Masculino"
+          />
+          <label for="femenino">Femenino</label>
+          <input type="checkbox" id="femenino" name="genero" value="Femenino" />
+        </div>
+
+        <label for="opcion">Recomendado por:</label>
+        <select id="opcion" name="opcion">
+          <option value="google">Google</option>
+          <option value="apple">Apple</option>
+          <option value="microsoft">Microsoft</option>
+        </select>
+
+        <label for="comentario">Comentarios:</label>
+        <textarea name="comentario" id="comentario"></textarea>
+
+        <div>
+          <label for="TerminosC">Terminos y condiciones:</label>
+          <input type="checkbox" id="TerminosC" />
+        </div>
+
+        <input type="text" name="email" id="email-input" placeholder="Correo electronico">
+
+        <input type="submit" value="Registrar" id="Submit" />
+
+
+      </form>
+    </main>
+  </body>
+</html>
